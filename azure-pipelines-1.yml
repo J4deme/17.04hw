@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '50990055-d486-4201-bb9f-b8aae254c80c'
+  dockerRegistryServiceConnection: 'bestrongAKS1acr1'
   imageRepository: 'bestrong'
   containerRegistry: 'bestrongaks1acr1.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
